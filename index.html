@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+        }
+
+        #v1 {
+            width: 100%;
+            height: 100px;
+            background-color: white;
+        }
+
+        #imgvtv {
+            width: 200px;
+            height: 100px;
+            float: left;
+        }
+
+        #v11 {
+            width: 150px;
+            height: 100px;
+            float: right;
+            margin-right: 30px;
+        }
+
+        #v12 {
+            width: 150px;
+            height: 90px;
+            float: right;
+            padding-top: 10px;
+        }
+
+        .bntv11 {
+            width: 150px;
+            height: 20px;
+            border-radius: 3px;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        #login {
+            width: 100px;
+            height: 30px;
+            background-color: red;
+            color: white;
+            margin-top: 10px;
+            border: none;
+            font-size: 17px;
+        }
+
+        #v2 {
+            width: 100%;
+            height: 40px;
+            background-color: black;
+        }
+
+        #textv2 {
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            margin-left: 20px;
+            float: left;
+            margin-top: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #v3 {
+            width: 100%;
+            height: 40px;
+            background-color: rgb(190, 190, 190);
+        }
+
+        .textv3 {
+            float: left;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        #seach {
+            float: right;
+            margin-top: 10px;
+            margin-right: 50px;
+        }
+
+        #chitiet {
+            float: right;
+            margin-top: 10px;
+            margin-right: 70px;
+        }
+
+        #v4 {
+            background-color: white;
+            width: 100%;
+            height: 50px;
+        }
+
+        .textv4 {
+            float: left;
+            margin-left: 30px;
+            margin-top: 15px;
+            color: gray;
+        }
+
+        .textv41 {
+            color: blue;
+        }
+
+        #imgbanner {
+            width: 100%;
+            height: 500px;
+        }
+
+        #v5 {
+            background-color: rgb(229, 229, 56);
+            width: 100%;
+            height: 100px;
+        }
+
+        .textv5 {
+            margin-left: 10px;
+            padding-top: 10px;
+        }
+
+        .bntv5 {
+            font-weight: bold;
+            color: blue;
+        }
+        #cuoi{
+            float: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="v1">
+        <div><img src="vtv.PNG" id="imgvtv"></div>
+        <div id="v12">
+            <div><input type="checkbox">Ghi nhớ?</div>
+            <div><input type="button" value="Log in" id="login"></div>
+        </div>
+        <div id="v11">
+            <div><input type="text" placeholder="User name" class="bntv11"></div>
+            <div><input type="text" placeholder="Mật khẩu" class="bntv11"></div>
+        </div>
+    </div>
+    <div id="v2">
+        <div id="textv2"><a href="#" id="textv2">Diễn đàn</a></div>
+        <div id="textv2"><a href="#" id="textv2">Bài viết mới</a></div>
+        <div id="seach"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></div>
+        <div id="seach"><input type="text"></div>
+    </div>
+    <div id="v3">
+        <div class="textv3"><a href="#">Today's Posts</a></div>
+        <div class="textv3"><a href="#">Trợ giúp</a></div>
+        <div class="textv3"><a href="#">Forum Actions</a></div>
+        <div class="textv3"><a href="#">Liên kết nhanh</a></div>
+        <div id="chitiet"><a href="#">Tìm kếm chi tiết</a></div>
+    </div>
+    <div id="v4">
+        <div class="textv4"><i class="fa-solid fa-house textv41"></i></div>
+        <div class="textv4"><i class="fa-solid fa-forward"></i></div>
+        <div class="textv4"><a href="#" class="textv41">Diễn đàn</a></div>
+        <div class="textv4"><i class="fa-solid fa-forward"></i></div>
+        <div class="textv4"><a href="#" class="textv41">Internet & Web & Multimedia</a></div>
+        <div class="textv4"><i class="fa-solid fa-forward"></i></div>
+        <div class="textv4"><a href="#" class="textv41">Thiết kế web</a></div>
+        <div class="textv4"><i class="fa-solid fa-forward"></i></div>
+        <div class="textv4"><a href="#" class="textv41">HTML-CSS</a></div>
+        <div class="textv4"><i class="fa-solid fa-forward"></i></div>
+        <div class="textv4"><a href="#">tạo liên kết giữa nội dung trang web và menu</a></div>
+    </div>
+    <div><img src="banner.PNG" id="imgbanner"></div>
+    <div id="v5">
+        <div class="textv5">Để tham gia Diễn đàn, hãy <a href="#" class="bntv5">Đăng ký</a> để trở thành thành viên
+            chính thức.</div>
+        <div class="textv5">You can <a href="#" class="bntv5">register</a> to be a member of the Forum.</div>
+    </div>
+    <div id="cuoi">Hiển thị kết quả từ 1 đến 5/5</div>
+</body>
+
+</html>
